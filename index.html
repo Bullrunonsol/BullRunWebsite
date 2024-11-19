@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BullRun Token</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <header data-aos="fade-down">
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="BullRun Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#tokenomics">Tokenomics</a></li>
+                <li><a href="#roadmap">Roadmap</a></li>
+                <li><a href="#equipo">Equipo</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero" data-aos="fade-up">
+        <h1>Bienvenido a BullRun</h1>
+        <p>La revolución de las memecoins en la red Solana.</p>
+        <a href="#tokenomics" class="cta">Descubre más</a>
+    </section>
+
+    <section id="tokenomics" class="tokenomics" data-aos="zoom-in">
+        <h2>Tokenomics</h2>
+        <div id="chart"></div>
+        <ul>
+            <li>5% Marketing</li>
+            <li>5% Reservas para Desarrolladores</li>
+            <li>5% Crecimiento Futuro (Staking, Airdrops)</li>
+            <li>85% Liquidez</li>
+        </ul>
+    </section>
+
+    <section id="roadmap" class="roadmap" data-aos="fade-left">
+        <h2>Roadmap</h2>
+        <ul>
+            <li>Q4 2024: Lanzamiento del Token</li>
+            <li>Q1 2025: Campaña de Marketing</li>
+            <li>Q2 2025: Alianzas Estratégicas</li>
+            <li>Q3 2025: Implementación de Staking</li>
+        </ul>
+    </section>
+
+    <section id="equipo" class="equipo" data-aos="fade-right">
+        <h2>Conoce al Equipo</h2>
+        <p>Un equipo dedicado de expertos en blockchain y entusiastas de las criptomonedas.</p>
+    </section>
+
+    <footer id="contacto" data-aos="fade-up">
+        <h2>Contacto</h2>
+        <p>Síguenos en nuestras redes sociales:</p>
+        <a href="https://twitter.com/bullrun" target="_blank">Twitter</a>
+        <a href="https://t.me/bullrun" target="_blank">Telegram</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'assets/js/particles.json', function() {
+            console.log('Particles.js loaded!');
+        });
+        AOS.init();
+    </script>
+</body>
+</html>
