@@ -1,76 +1,80 @@
-
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BullRun Token</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
-    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>$BullRun</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div id="particles-js"></div>
-<!-- Barra de Navegación -->
-<header class="navbar">
-  <div class="navbar-container">
-    <img src="assets/images/logo.png" alt="$BullRun Logo" class="navbar-logo" />
-    <nav class="navbar-menu">
-      <a href="#about" class="nav-link">About</a>
-      <a href="#how-to-buy" class="nav-link">How to Buy</a>
-      <a href="#tokenomics" class="nav-link">Tokenomics</a>
-      <a href="#roadmap" class="nav-link">Roadmap</a>
-    </nav>
-    <a href="#buy-now" class="navbar-buy-btn">Buy Now</a>
-  </div>
-</header>
-    <section id="inicio" class="hero" data-aos="fade-up">
-        <h1>Bienvenido a BullRun</h1>
-        <p>La revolución de las memecoins en la red Solana.</p>
-        <a href="#tokenomics" class="cta">Descubre más</a>
-    </section>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="navbar-container">
+      <img src="assets/images/logo.png" alt="$BullRun Logo" class="navbar-logo" />
+      <nav class="navbar-menu">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#how-to-buy" class="nav-link">How to Buy</a>
+        <a href="#tokenomics" class="nav-link">Tokenomics</a>
+        <a href="#roadmap" class="nav-link">Roadmap</a>
+      </nav>
+      <a href="#buy-now" class="navbar-buy-btn">Buy Now</a>
+    </div>
+  </header>
 
-    <section id="tokenomics" class="tokenomics" data-aos="zoom-in">
-        <h2>Tokenomics</h2>
-        <div id="chart"></div>
-        <ul>
-            <li>5% Marketing</li>
-            <li>5% Reservas para Desarrolladores</li>
-            <li>5% Crecimiento Futuro (Staking, Airdrops)</li>
-            <li>85% Liquidez</li>
-        </ul>
-    </section>
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <h1>Welcome to $BullRun</h1>
+    <p>The memecoin leading the charge in the next crypto bull market.</p>
+    <div class="hero-buttons">
+      <a href="#" class="hero-btn">Twitter</a>
+      <a href="#" class="hero-btn">Telegram</a>
+      <a href="#" class="hero-btn">CoinMarketCap</a>
+    </div>
+  </section>
 
-    <section id="roadmap" class="roadmap" data-aos="fade-left">
-        <h2>Roadmap</h2>
-        <ul>
-            <li>Q4 2024: Lanzamiento del Token</li>
-            <li>Q1 2025: Campaña de Marketing</li>
-            <li>Q2 2025: Alianzas Estratégicas</li>
-            <li>Q3 2025: Implementación de Staking</li>
-        </ul>
-    </section>
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About</h2>
+    <p>$BullRun is a memecoin designed to empower the community and decentralize wealth.</p>
+  </section>
 
-    <section id="equipo" class="equipo" data-aos="fade-right">
-        <h2>Conoce al Equipo</h2>
-        <p>Un equipo dedicado de expertos en blockchain y entusiastas de las criptomonedas.</p>
-    </section>
+  <!-- How to Buy Section -->
+  <section id="how-to-buy" class="how-to-buy">
+    <h2>How to Buy</h2>
+    <div class="buy-steps">
+      <div class="buy-step">
+        <h3>Create a Wallet</h3>
+        <p>Download Phantom or another Solana-compatible wallet.</p>
+      </div>
+      <div class="buy-step">
+        <h3>Get Some SOL</h3>
+        <p>Fund your wallet with Solana (SOL).</p>
+      </div>
+      <div class="buy-step">
+        <h3>Go to DexCleaner</h3>
+        <p>Search for $BullRun and swap SOL.</p>
+      </div>
+    </div>
+  </section>
 
-    <footer id="contacto" data-aos="fade-up">
-        <h2>Contacto</h2>
-        <p>Síguenos en nuestras redes sociales:</p>
-        <a href="https://twitter.com/bullrun" target="_blank">Twitter</a>
-        <a href="https://t.me/bullrun" target="_blank">Telegram</a>
-    </footer>
+  <!-- Tokenomics Section -->
+  <section id="tokenomics" class="tokenomics">
+    <h2>Tokenomics</h2>
+    <p>Total Supply: 1,000,000,000</p>
+  </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script src="assets/js/script.js"></script>
-    <script>
-        particlesJS.load('particles-js', 'assets/js/particles.json', function() {
-            console.log('Particles.js loaded!');
-        });
-        AOS.init();
-    </script>
+  <!-- Roadmap Section -->
+  <section id="roadmap" class="roadmap">
+    <h2>Roadmap</h2>
+    <p>Phase 1: Launch marketing campaigns.</p>
+    <p>Phase 2: Get listed on major exchanges.</p>
+    <p>Phase 3: Expand adoption globally.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 $BullRun. All rights reserved.</p>
+    <p><a href="#">Twitter</a> | <a href="#">Telegram</a></p>
+  </footer>
 </body>
 </html>
